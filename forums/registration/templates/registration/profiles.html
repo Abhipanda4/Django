@@ -1,0 +1,10 @@
+{% extends 'registration/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h2> Hello {{ user.username }}. User specific page. </h2>
+        <ul>
+            <li>{{ user.email }}</li>
+        </ul>
+    </div>
+{% endblock %}
